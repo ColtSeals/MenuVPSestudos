@@ -128,7 +128,7 @@ os hosts ficam no arquivo /etc/payloads\033[0m"
 payloads
 service squid restart 1> /dev/null 2> /dev/null
 
-echo -e "\033[01;31mTudo terminado crie um usuario e teste !!\033[0m"
+echo -e "\033[01;31mQuase tudo pronto execute o segundo SCRIPT !!\033[0m"
 exit 0
 fi
 
@@ -162,7 +162,7 @@ addhost
 
 echo -e "\033[1;37mPara adicionar novos hosts ao squid execute o comando addhost
 os hosts ficam no arquivo /etc/payloads\033[0m"
-echo -e "\033[01;31mTudo terminado crie um usuario e teste !! \033[0m"
+echo -e "\033[01;31mQuase tudo pronto execute o segundo SCRIPT !! \033[0m"
 exit 0
 fi
 
@@ -196,7 +196,7 @@ addhost
 
 echo -e "\033[1;37mPara adicionar novos hosts ao squid execute o comando addhost
 os hosts ficam no arquivo /etc/payloads\033[0m"
-echo -e "\033[01;31mTudo terminado crie um usuario e teste !! \033[0m"
+echo -e "\033[01;31mQuase tudo pronto execute o segundo SCRIPT !! \033[0m"
 exit
 fi
 
@@ -230,7 +230,7 @@ addhost
 
 echo -e "\033[1;37mPara adicionar novos hosts ao squid execute o comando addhost
 os hosts ficam no arquivo /etc/payloads\033[0m"
-echo -e "\033[01;31mTudo terminado crie um usuario e teste !! \033[0m"
+echo -e "\033[01;31mQuase tudo pronto execute o segundo SCRIPT !! \033[0m"
 exit 0
 fi
 
@@ -266,7 +266,7 @@ addhost
 
 echo -e "\033[1;37mPara adicionar novos hosts ao squid execute o comando addhost
 os hosts ficam no arquivo /etc/payloads\033[0m"
-echo -e "\033[01;31mTudo terminado crie um usuario e teste !! \033[0m"
+echo -e "\033[01;31mQuase tudo pronto execute o segundo SCRIPT !! \033[0m"
 exit
 fi
 
@@ -302,5 +302,5 @@ service squid3 restart > /dev/null 2> /dev/null
 addhost
 echo -e "\033[1;37mPara adicionar novos hosts ao squid execute o comando addhost
 os hosts ficam no arquivo /etc/payloads\033[0m"
-echo -e "\033[01;31mTudo terminado crie um usuario e teste !! \033[0m"
+echo -e "\033[01;31mQuase tudo pronto execute o segundo SCRIPT !! \033[0m"
 
