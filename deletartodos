@@ -1,0 +1,8 @@
+#/bin/bash
+for user in $(cat /etc/passwd |awk -F : '$3 > 900 {print $1}' |grep -v "rick" |grep -vi "nobody")
+do
+userpid=$(ps -u $user |awk {'print $1'})
+kill "$userpid" 2>/dev/null
+userdel $user
+echo "$user Deletado"
+done
